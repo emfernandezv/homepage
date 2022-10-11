@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.home-title {
+    font-size: 2em;
+    font-family: "Nunito", Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.msg h2 {
+    font-size: 2em;
+    font-family: "Nunito", Helvetica, sans-serif;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -8,13 +22,22 @@
 
 header{
     background-color: #016FB9;
-}           
+    --heading-font: "Nunito";
+    --paragraph-font: "Nunito", Helvetica, sans-serif;
+}      
+
 body{
     background-color: #8B2635;
+    font-family: "Nunito", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 footer{
     background-color: #016FB9;
     color: #fff;
+    padding: 25px 50px;
+    margin: 200px;
 }
 footer a {
     color: #fff;
@@ -30,14 +53,26 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+footer .social img {
+    padding: 25px 50px;
+}  
+
 nav a{
     text-align: center;
     color: #fff;
     text-decoration: none;
+    padding: 25px;
+    background-color: #8B2635;
+    
 }
 nav a:hover{
     background-color: #8B2635;
     color: #fff;
+}
+
+#hero{
+    box-sizing: border-box;
+    border:1.5px solid #d9c2a3;
 }
 
 #hero-msg h1{
@@ -63,6 +98,11 @@ main section{
 .book{
     color: #D3EFBD;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #016FB9;
 }
 .book:hover{
     background-color: #016FB9;
@@ -71,6 +111,11 @@ main section{
 .join{
     color: #D3EFBD;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #8B2635;
 }
 .join:hover{
     background-color: #8B2635;
@@ -78,16 +123,16 @@ main section{
 }
 .msg{
     background-color: #016FB9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.home-title {
-    color: #fff;
-}
 h4 {
     color: #fff;
 }
 h2 {
     color: #fff;
+    margin: 0;
 }
 
 .msg h2 {
@@ -95,9 +140,32 @@ h2 {
 }
 .msg p {
     color: #fff;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-      
+
+#logo_link {
+    padding-top: 50px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
