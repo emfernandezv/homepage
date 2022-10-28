@@ -27,6 +27,7 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
     align-content: center;
+    
 }      
 
 
@@ -44,6 +45,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 footer a {
     color: #fff;
