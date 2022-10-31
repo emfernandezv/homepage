@@ -18,7 +18,7 @@ nav{
     font-weight: bold;
     display: flex;
     justify-content: space-around;
-    padding-top: 40px;
+    padding-top: 5%;
 }
 
 nav a{
@@ -59,15 +59,16 @@ body {
     background-color: #112240;
     font-family: "Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
     display: grid;
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 100%;
 }
 
 #content {
     display: grid;
-    grid-template-columns: 400px auto auto 400px;
-    grid-template-rows: 200px  ;
+    grid-template-columns: 15% auto auto 15%;
+    grid-template-rows: 15% auto auto 40% ;
 }
 
 #content a{
@@ -85,6 +86,7 @@ body {
     text-align: center;
     color:#6285BA;
     font-size: 20px;
+    align-content: bottom;
 }
 
 #footer1 {
