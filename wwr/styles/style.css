@@ -90,6 +90,64 @@ nav a:hover{
     grid-template-columns: repeat(10,1fr);
 }
 
+.rafting-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+
+.raft1-card {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    margin-top: -150px; 
+    z-index: -1;    
+}
+
+.raft2-card {
+    grid-column: 2/5;
+    grid-row: 6/7;
+    height: 600px;
+}
+
+.text_blog1{
+    grid-column: 2/5;
+    grid-row: 2/3;
+    height: 300px;
+}
+
+.text_blog1 h3{
+    text-align: left;
+}
+
+.text_blog1 p{
+    text-align:justify;
+}
+
+.text_blog2 h3{
+    text-align: left;
+}
+
+.text_blog2 p{
+    text-align:justify;
+}
+
+
+.text_blog2{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    height: 500px;
+}
+
+.blog-msg{
+    background-color: rgb(128 128 128 / 0.8);
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/5;
+    grid-row: 8/9;
+    height: 150px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 #hero{
     
     display: grid;
