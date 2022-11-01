@@ -68,28 +68,40 @@ body {
 /* Footer Recursive Style*/
 footer {
     background-color: #112240;
-    display:block;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    display:flexbox;
     text-align: center;
     color:#6285BA;
     font-size: 20px;
     bottom: 0;
     width: 100%;
     height: 1%;    
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     position:fixed;
-    left:0;
+    padding-top: 1%;
 }
 
 #footer1 {
     margin: 0%;    
+    padding-bottom: 0.5%;
 }
 
-#footer2 {
+#footer1  span{
     color: #29ABE2;
 }
 
+.social {
+    padding: 1%;
+}
+
+#imgli:hover{
+    transform: scale(1.5);
+}
+#imgig:hover{
+    transform: scale(1.5);
+}
+#imggh:hover{
+    transform: scale(1.5);
+}
 
 /*Home page Content Style*/
 
