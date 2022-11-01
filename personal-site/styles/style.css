@@ -183,11 +183,12 @@ footer {
     grid-row: 1/4;
     align-self: center;
     padding-top: 10%;
-    background-size: cover;
 }
 
 .profile{
+    background-size: cover;
     opacity: 0.6;
+    max-width: 100%; 
 }
 
 .profile:hover{
