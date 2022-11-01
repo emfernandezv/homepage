@@ -150,7 +150,6 @@ nav a:hover{
 }
 
 #hero{
-    
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -150px; 
