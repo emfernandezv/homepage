@@ -80,17 +80,18 @@ body {
 /* Footer Recursive Style*/
 footer {
     background-color: #112240;
-    display: flexbox;
+    display:block;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     text-align: center;
     color:#6285BA;
     font-size: 20px;
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 1%;    
-    padding-bottom: 1.5%;
+    padding-bottom: 5%;
+    position:fixed;
+    left:0;
 }
 
 #footer1 {
@@ -174,12 +175,15 @@ footer {
 #P1-paragraph span{
     color:#29ABE2;
     font-weight: bold;
+
 }
+
 #profile-picture {
     grid-column: 3/4;
     grid-row: 1/4;
     align-self: center;
     padding-top: 10%;
+    background-size: cover;
 }
 
 .profile{
