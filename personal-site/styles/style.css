@@ -194,5 +194,6 @@ footer {
 .profile:hover{
     transform: scale(1.1);
     opacity: 1;
+    max-width: 100%; 
 }
 
