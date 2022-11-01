@@ -95,17 +95,15 @@ footer {
 }
 
 .social {
-    padding: 1vw;
+    padding: 2vw;
 }
 
-#imgli:hover{
-    transform: scale(1.5);
+.sociallogo {
+    height: 2vw;
+    width: 2vw;
 }
-#imgig:hover{
-    transform: scale(1.5);
-}
-#imggh:hover{
-    transform: scale(1.5);
+.sociallogo:hover {
+    transform: scale(1.1);
 }
 
 /*Home page Content Style*/
