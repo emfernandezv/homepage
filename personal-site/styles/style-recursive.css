@@ -1,0 +1,156 @@
+/*Page Recursive Header Style*/
+
+#header{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#nav-section {
+    grid-column: 4/6;
+}
+
+header {
+    background-color: #112240;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+nav{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+nav a{
+    color: #4D78B8;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
+.logo {
+    height: 6vw;
+    width: 6vw;
+}
+
+nav span {
+    color: #29ABE2;
+}
+
+nav :hover{
+    color: #29ABE2;
+    transform: scale(1.1);
+}
+
+.logo:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 15% auto auto 15%;
+}
+
+/*Body recursive values*/
+h1 {
+    color: #29ABE2;
+}
+
+h2 {
+    color: #839ABD;
+}
+
+h3, p {
+    color:#6285BA;
+}
+
+body {
+    background-color: #112240;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
+    display: grid;
+    padding-top: 0.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 100%;
+}
+
+#tittle {
+    grid-column: 2/3;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    color: #839ABD;
+    font-size: 2vw;
+}
+
+#tittle span{
+    font-size: 1.5vw;
+    color: #29ABE2;
+    margin: 0%;
+}
+
+
+
+h1{
+    font-size: 1.5vw;
+}
+
+h2{
+    font-size: 1.1vw;
+}
+
+h3{
+    font-size: 1.35vw;
+}
+
+p{
+    font-size: 0.8vw;
+}
+
+.p span{
+    color:#29ABE2;
+    font-weight: bold;
+}
+
+a {
+    color:#29ABE2;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+/* Footer Recursive Style*/
+footer {
+    background-color: #112240;
+    display:flexbox;
+    text-align: center;
+    color:#6285BA;
+    font-size: 0.8vw;
+    bottom: 0;
+    width: 100vw;
+    height: 7%;    
+    padding-bottom: 3vw;
+    position:fixed;
+    padding-top: 1vw;
+}
+
+#footer1 {
+    margin: 0%;    
+    padding-bottom: 1vw;
+}
+
+#footer1  span{
+    color: #29ABE2;
+}
+
+.social {
+    padding: 2vw;
+}
+
+.sociallogo {
+    height: 2vw;
+    width: 2vw;
+}
+.sociallogo:hover {
+    transform: scale(1.1);
+}
