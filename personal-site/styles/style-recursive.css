@@ -49,6 +49,7 @@ nav :hover{
 .contenido {
     display: grid;
     grid-template-columns: 15% auto auto 15%;
+    grid-auto-flow: column;
 }
 
 /*Body recursive values*/
@@ -122,7 +123,6 @@ a:hover{
 /* Footer Recursive Style*/
 footer {
     background-color: #112240;
-    display:flexbox;
     text-align: center;
     color:#6285BA;
     font-size: 0.8vw;
@@ -132,9 +132,12 @@ footer {
     padding-bottom: 3vw;
     position:fixed;
     padding-top: 1vw;
+    grid-template-columns: auto;
 }
 
 #footer1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
     margin: 0%;    
     padding-bottom: 1vw;
 }

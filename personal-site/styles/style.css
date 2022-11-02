@@ -82,14 +82,14 @@
 /* Experience Page Content Style*/
 
 #T1 {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 2/3;
     height: auto;
-    width: 80%;
+    width: 70%;
 }
 
 #img-t1 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 2/3;
     align-content: center;
     vertical-align: center;
@@ -97,61 +97,61 @@
 }
 
 #T2 { 
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 3/4;
     height: auto;
-    width: 80%;
+    width: 70%;
 }
 
 #img-t2 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 3/4;
     align-self: center;
 
 }
 
 #T3 {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 4/5;
     height: auto;
-    width: 80%;
+    width: 70%;
 }
 
 #img-t3 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 4/5;
     align-self: center;
 }
 
 #T4{
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 5/6;
-    width: 80%;
+    width: 70%;
 }
 #img-t4 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 5/6;
     align-self: center;
 }
 
 #T5{
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 6/7;
-    width: 80%;
+    width: 70%;
 }
 #img-t5 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 6/7;
     align-self: center;
 }
 
 #T6{
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 7/8;
-    width: 80%;
+    width: 70%;
 }
 #img-t6 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 7/8;
     align-content: center;
     vertical-align: center;
@@ -159,14 +159,14 @@
     
 }
 #T7 {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 8/9;
     height: auto;
     text-align: justify;
-    width: 80%;
+    width: 70%;
 }
 #img-t7 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 8/9;
     align-content: center;
     vertical-align: center;
@@ -174,14 +174,14 @@
 }
 
 #T8 {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 9/10;
     height: auto;
     text-align: justify;
-    width: 80%;
+    width: 70%;
 }
 #img-t8 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 9/10;
     align-content: center;
     vertical-align: center;
@@ -190,13 +190,13 @@
 }
 
 #T9 {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 10/11;
-    width: 80%;
+    width: 70%;
 }
 
 #img-t9 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 10/11;
     align-content: center;
     vertical-align: center;
@@ -207,7 +207,7 @@
 #T10 {
     grid-column: 1/5;
     grid-row: 11/12;
-    width: 80%;
+    width: 70%;
 }
 
 .companyLogo{
