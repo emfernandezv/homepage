@@ -1,22 +1,15 @@
 /*Page Recursive Header Style*/
 
-#header{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    position: static;
-    
-}
-
-#nav-section {
-    grid-column: 4/6;
-}
-
 header {
     background-color: #112240;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: static;
 }
 
 nav{
+    grid-column: 4/6;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
@@ -58,14 +51,17 @@ nav :hover{
 /*Body recursive values*/
 h1 {
     color: #29ABE2;
+    font-size: 1.5vw;
 }
 
 h2 {
     color: #839ABD;
+    font-size: 0.9vw;
 }
 
 h3, p {
     color:#6285BA;
+    font-size: 1.35vw;
 }
 
 body {
@@ -89,18 +85,6 @@ body {
     font-size: 1.5vw;
     color: #29ABE2;
     margin: 0%;
-}
-
-h1{
-    font-size: 1.5vw;
-}
-
-h2{
-    font-size: 0.9vw;
-}
-
-h3{
-    font-size: 1.35vw;
 }
 
 p{
