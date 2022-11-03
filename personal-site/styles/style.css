@@ -246,6 +246,7 @@
     left: 0;
     margin: 0px 0px 1% 1%;
     height: auto;
+    padding-left: 0;
 }
 #content4 p {
     
@@ -255,13 +256,13 @@
     height: auto;
     margin: 0%;
     text-align: justify;
-    
+    padding-left: 0.6vw;
 }
 
 #content4 a{
     grid-column: 2/3;
     grid-row:  4/5;
-    margin-left: 25vw;
+    margin-left: 44vw;
 }
 
 .join{
@@ -277,6 +278,7 @@
     color:#29ABE2;
     border: 2px solid #29ABE2;
     font-weight: bold;
+    align-content: center;
     
 }
 .join:hover{
