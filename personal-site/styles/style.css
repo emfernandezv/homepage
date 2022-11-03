@@ -52,7 +52,8 @@
     font-size: 0.8vw;
     width: 30vw;
     text-align: justify;
-    padding-top: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 
@@ -69,8 +70,8 @@
     opacity: 0.9;
     max-width: 100%; 
     box-shadow: 0.5vw 0.5vw 2vw #29ABE2;
-    height: 30vw;
-    width: 30vw;
+    height: 25vw;
+    width: 25vw;
     border-radius: 1vw;
 }
 

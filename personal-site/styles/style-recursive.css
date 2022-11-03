@@ -41,13 +41,6 @@ nav :hover{
     transform: scale(1.1);
 }
 
-.contenido {
-    display: grid;
-    grid-template-columns: 15% auto auto 15%;
-    grid-auto-flow: column;
-    
-}
-
 /*Body recursive values*/
 h1 {
     color: #29ABE2;
@@ -72,6 +65,21 @@ body {
     padding-left: 4%;
     padding-right: 4%;
     height: 100%;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 15% auto auto 15%;
+    grid-auto-flow: column;
+
+    
 }
 
 #tittle {
