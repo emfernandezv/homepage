@@ -27,6 +27,11 @@ nav a{
     width: 6vw;
 }
 
+.logo:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
 nav span {
     color: #29ABE2;
 }
@@ -36,13 +41,10 @@ nav :hover{
     transform: scale(1.1);
 }
 
-.logo:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
+
 
 /*Body recursive values*/
-h1 {
+h1,h4 {
     color: #29ABE2;
     font-size: 1.5vw;
 }
@@ -106,7 +108,7 @@ a {
 }
 
 a:hover{
-    font-weight: bold;
+    text-decoration: underline;
     
 }
 
