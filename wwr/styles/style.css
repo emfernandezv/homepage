@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
+<
 .home-title {
     font-size: 2em;
     font-family: "Nunito", Helvetica, sans-serif;
@@ -94,7 +94,36 @@ nav a:hover{
 .rafting-grid {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    
+}
+
+.rafting-grid p{
+    font-size: 20px;
+    font-weight: 600 ;
+    text-align: justify;
+}
+
+#text_blog  {
+    font-size: 20px;
+    font-weight: 600 ;
+    text-align: justify;
+    height: auto;
+}
+
+.rafting-grid h3{
+    font-style: italic;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.rafting-grid ul{
+    text-align: left;
+    font-weight: bolder;
+}
+
+.rafting-grid li{
+    text-align: justify;
+    font-weight: bolder;
+    height: auto;
 }
 
 .raft1-card {
@@ -104,49 +133,145 @@ nav a:hover{
     z-index: -1;    
 }
 
-.raft2-card {
-    grid-column: 2/5;
-    grid-row: 6/7;
-    height: 600px;
-}
-
-.text_blog1{
+#B0{
     grid-column: 2/5;
     grid-row: 2/3;
-    height: 300px;
+    height: 5vw;
 }
 
-.text_blog1 h3{
-    text-align: left;
-}
-
-.text_blog1 p{
-    text-align:justify;
-}
-
-.text_blog2 h3{
-    text-align: left;
-}
-
-.text_blog2 p{
-    text-align:justify;
-}
-
-
-.text_blog2{
+#B1{
     grid-column: 2/5;
     grid-row: 3/4;
-    height: 500px;
 }
+
+#IMG2 {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    padding-left: 10vw;
+}
+
+#B2{
+    grid-column: 2/5;
+    grid-row: 5/6;
+    margin-top: 2vw;
+}
+
+#IMG3 {
+    grid-column: 2/5;
+    grid-row: 6/7;
+    
+}
+
+#scorpion{
+    height: 500px ;
+}
+
+#sheep{
+    height: 500px ;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
 .blog-msg{
     background-color: rgb(128 128 128 / 0.8);
     line-height: 1.5em;
     padding: 35px;
+    margin-top: 2vw;
     grid-column: 2/5;
-    grid-row: 8/9;
+    grid-row: 7/9;
     height: 150px;
     box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+}
+
+.blog-img{
+    border-radius: 2vw;
 }
 
 #hero{
