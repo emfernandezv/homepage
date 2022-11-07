@@ -133,8 +133,13 @@ footer a{
 }
 
 #footer1 {
+    margin-top: 0%;
+    padding-bottom: 0;
+}
+
+#footer2 {
     margin: 0%;    
-    padding-bottom: 1vw;
+    padding-bottom: 0.5vw;
 }
 
 #footer1  span{
