@@ -17,15 +17,19 @@
     nav a {
         display: block;
         padding: 3vw;
-        font-size: 3vw;
+        font-size: 2vw;
         width: 15vw;
     }
 
     nav #aboutme{
-        grid-column: 3/4;
+        grid-column: 2/3;
     }
 
     nav #experience{
+        grid-column: 3/4;
+    }
+
+    nav #projects{
         grid-column: 4/5;
     }
 
@@ -72,7 +76,7 @@
 
     /*Index*/
     .cont1 {
-        padding-top: 2vw;
+        padding-top: 3vw;
     }
 
     #p1 {
@@ -168,7 +172,7 @@
     }
 
     .join{
-        height: 10vw;
+        height: 15vw;
         width: 30vw;
         font-size: 5vw;
         text-align: center;
