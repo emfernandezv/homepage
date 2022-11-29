@@ -68,78 +68,122 @@
 }
 
 /* Experience Page Content Style*/
-* {box-sizing: border-box}
+
 #content3 {
     display: grid;
-    grid-template-columns: 15% 15% 80% 15%;
+    grid-template-columns: 15% 45vw auto 15%;
     grid-auto-flow: column;
 }
 
-#T0 {
-    grid-column: 2/4;
-    grid-row: 1/2;
+.exp {
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    height: auto;
 }
-/* Style the tab */
-.tab {
-    float: left;
-    border: 1px solid #29ABE2;
-    background-color: #112240;
-    width: 100%;
-    height: 30vw;
-    grid-column: 2/3;
-    grid-row: 2/4;
-  }
 
-  
-  /* Style the buttons inside the tab */
-  .tab button {
-    display: block;
-    background-color: inherit;
-    color: #29ABE2;
-    padding: 22px 16px;
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 1vw;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #29ABE2;
-    color: #112240;
-  }
-  
-  /* Create an active/current "tab button" class */
-  .tab button.active {
-    background-color: #29ABE2;
-    color: #112240;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
+.exp-img {
+    padding-top: 4vw;
+    align-self: top;
+}
+
+#T1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#img-t1 {
     grid-column: 3/4;
-    grid-row: 2/4;
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #29ABE2;
-    width: 70%;
-    border-left: none;
-    height: 100%;
-  }
+    grid-row: 2/3;
+}
+
+#T0 { 
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+#T2 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#img-t2 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#T3{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+#img-t3 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+#T4{
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+#img-t4 {
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+#T5{
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+#img-t5 {
+    grid-column: 3/4;
+    grid-row: 7/8;
+}
+#T6 {
+    grid-column: 2/3;
+    grid-row: 8/9;
+}
+#img-t6 {
+    grid-column: 3/4;
+    grid-row: 8/9;
+}
+
+#T7 {
+    grid-column: 2/3;
+    grid-row: 9/10;
+}
+#img-t7 {
+    grid-column: 3/4;
+    grid-row: 9/10;
+}
+
+#T8 {
+    grid-column: 2/3;
+    grid-row: 10/11;
+}
+
+#img-t8 {
+    grid-column: 3/4;
+    grid-row: 10/11;
+}
+
+#T9 {
+    grid-column: 2/3;
+    grid-row: 11/12;
+}
+
+#img-t9 {
+    grid-column: 3/4;
+    grid-row: 11/12;
+}
 
 .companyLogo{
     background-size: cover;
     opacity: 0.9;
     max-width: 100%; 
-    box-shadow: 0.5vw 0.5vw 2vw #29ABE2;
-    height: auto;
-    width: 15vw;
-    border-radius: 0.5vw;
-    margin-left: 20vw ;
-    
+    box-shadow: 1vw 1vw 2vw #29ABE2;
+    height: 4.5vw;
+    width: 12vw;
+    border-radius: 1vw;
 }
 
 .companyLogo:hover{
@@ -148,7 +192,7 @@
     max-width: 100%; 
 }
 
-/*Contact tyle*/
+/*Home page Content Style*/
 
 
 #content4 h2 {
@@ -183,8 +227,8 @@
     text-decoration: none;
     font-size: 1vw;
     padding: 0.5vw 1.5vw;
-    height: 4vw;
-    width: 5.5vw;
+    height: 1.5vw;
+    width: 5vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
     border-radius: 1vw;
@@ -200,5 +244,4 @@
     color: #112240;
     font-weight: bold;
     opacity: 0.7;
-    text-decoration: none;
 }

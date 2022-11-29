@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="styles/style-recursive.css">
         <link rel="stylesheet" href="styles/style-mobile.css">
         <link rel="icon" href="images/favicon.ico">
+
         
     </head>
     <body>
@@ -17,81 +18,40 @@
                 <img class="logo" src="images/LOGO2.png" alt="EF Logo" >
             </a>
             <nav id="nav-section">
-                <a href="about-me.html"> <span> 01. </span>About</a>
-                <a href="experience.html"><span> 02. </span> Experience</a>
-                <a href="contact-me.html"><span> 03. </span> Contact</a>
+                <a id="aboutme" href="about-me.html"> <span> 01. </span>About</a>
+                <a id="experience" href="experience.html"><span> 02. </span> Experience</a>
+                <a id="projects" href="projects.html"><span> 03. </span> Projects</a>
+                <a id="contact" href="contact-me.html"><span> 04. </span> Contact</a>
             </nav>
         </header>
 
         <main class="contenido" id="content3">
-            <h1 id="tittle"><span>02. </span> Where<span>'</span>ve I worked<span>?</span></h1>
-            <div class="exp" id="T1">
+
+            <div class="title" id="T0">
+                <h1 id="tittle"><span>02. </span> Where<span>'</span>ve I worked<span>?</span></h1>
+            </div>
+            
+
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'T1')" id="defaultOpen">AdvancedMD</button>
+                <button class="tablinks" onclick="openTab(event, 'T2')">Sygnus Consulting</button>
+                <button class="tablinks" onclick="openTab(event, 'T3')">Panorama BPO</button>
+                <button class="tablinks" onclick="openTab(event, 'T4')">Sygnus Consulting</button>
+            </div>
+
+            
+            <div class="tabcontent" id="T1">
                 <h1>AdvancedMD</h1>
-                <h2>Interoperability Analyst Sr. <a>(Jun 2022 - Present)</a></h2>
+                <h2>Interface Delivery Analyst Sr. <a>(Jun 2022 - Present)</a></h2>
                 <p> <a>•</a> I work primarily with medical practices and software companies to help them to design and integrate correctly their tech solution into AMD by using our APIs and customized ODBC Driver.<br> 
                     <a>•</a>  I have worked on the Postman Collection improvement to automate the login redirect method calls and improve other calls to be self-constructed automatically using JavaScript.</p>
+                
+                <div class="exp-img" id="img-t1"><a href="https://www.advancedmd.com/" target="_blank" class="hyperlinks">
+                    <img class="companyLogo" src="images/advancedmdlogo.png" alt="AdvancedMD" ></a>
                 </div>
-            <div class="exp-img" id="img-t1"><a href="https://www.advancedmd.com/" target="_blank" class="hyperlinks">
-                <img class="companyLogo" src="images/advancedmdlogo.png" alt="AdvancedMD" ></a>
             </div>
-            <div class="exp" id="T0">
-                <h4>Freelancer</h4>
-            </div>    
-            <div class="exp" id="T2">
-                <h3>ElectroPeru S.A.</h3>
-                <h2>Integration and Improvement services <a>(Jul 2022 - Present)</a></h2>
-                <p> <a>•</a> I integrated the interface between the HR Software and SAP B1.<br>
-                    <a>•</a> I have analyzed the security of the HR Software to improve better administrative procedures.<br>
-                    <a>•</a> I have analyzed the Database Server and given solutions to the software speed issues.<br>
-                    <a>•</a> I have trained users to learn to code on the built-in HR Software formula module.<br>
-                    <a>•</a> I troubleshoot user problems related to the software. </p>
-                </div>
-            <div class="exp-img" id="img-t2"><a href="https://www.electroperu.com.pe/" target="_blank"  class="hyperlinks">
-                <img class="companyLogo" src="images/electroperu.jpg" alt="Electroperu" ></a>
-            </div>
-            <div class="exp" id="T3">
-                <h3>Fabrica de Envases S.A. </h3>
-                <h2>SAP Integration <a>(Nov 2021 - Jan 2022)3 mo</a> </h2>
-                <p> <a>•</a> I have executed massive cost center updates on the accounting ERP/SAP integration.<br>
-                    <a>•</a> I have developed 1 on 1 reports between SINPLE/SAP for the accounting comparison<br>
-                    <a>•</a> I have led the execution of going live on the migration SINPLE/SAP for accounting.</p>
-                <h2>Abaco Integration <a>(Jan 2022 - Mar 2022) 3 mo</a></h2>
-                <p> <a>•</a> I developed reports of comparison to check information on the ABACO integration.<br>
-                    <a>•</a> I have generated the SQL/JSON accounting scripts to integrate with ABACO.</p>
-                <h2>Reporting and Accounting Software Integration <a>(Mar 2022 - Apr 2022) 2 mo</a></h2>
-                <p> <a>•</a> I developed a reporting software that interacts with the SINPLE ERP and Sygnus Payroll software with more than 50 customized PowerBuilder reports.<br> 
-                    <a>•</a> I developed an integration software based on PowerBuilder to facilitate user interaction when uploading information from excel sheets to the Sygnus Payroll/assistance software</p>
-                </div>
-            <div class="exp-img" id="img-t3"><a href="https://www.fadesa.com/" target="_blank"  class="hyperlinks">
-                <img class="companyLogo" src="images/fadesa.jpg" alt="Fadesa" ></a>
-            </div>
-            <div class="exp" id="T4">
-                <h3>Agricola Copacabana de Chincha S.A.</h3>
-                <h2>Database Integration <a>(Dec 2019 - Jan 2020) 2 mo</a></h2>
-                <p><a>•</a> I designed the integration between the old HR database and the new Software to format and present the old software data on the new one.</p><br><br>
-            </div>
-            <div class="exp-img" id="img-t4"><a href="#"  class="hyperlinks">
-                <img class="companyLogo" src="images/agricola.jpg" alt="Agricola Copacabana" ></a>
-            </div>
-            <div class="exp" id="T5">
-                <h3>CREATRA S.A.C.</h3>
-                <h2>Server migration to cloud servers.  <a>(Jan 2020 - Feb 2020) 2 mo</a></h2>
-                <p><a>•</a> I have led and executed the migration process of all the client/server applications to a new cloud server to improve system responses.</p><br><br>
-            </div>
-            <div class="exp-img" id="img-t5"><a href="http://www.creatra.com.pe/" target="_blank"  class="hyperlinks">
-                <img class="companyLogo" src="images/creatra.png"  alt="Creatra" ></a>
-            </div>
-            <div class="exp" id="T6">
-                <h3>Hermandad del Señor Crucificado del Rimac </h3>
-                <h2>Extranet Development <a>(Jul 2018 - Jul 2019) 1yr</a></h2>
-                <p><a>•</a> I analyzed the client's needs to develop an extranet website.<br>
-                    <a>•</a> The extranet has modules for accounting, assistance, reports, and biometric interface integration.<br>
-                    <a>•</a> The cloud database also interacts with a client/server application developed by me based on PowerBuilder for accountability processes and advanced reporting services.</p>
-                </div>
-            <div class="exp-img" id="img-t6"><a href="http://www.hscr.pe" target="_blank"  class="hyperlinks">
-                <img class="companyLogo" src="images/HSCR_escudo.png" alt="hscr" ></a>
-            </div>
-            <div class="exp" id="T7">
+
+            <div class="tabcontent" id="T2">
                 <h1>Sygnus Consulting S.A.</h1>
                 <h2>Application Manager <a>(Jul 2017 - Dec 2021) 4 yrs 6 mos</a></h2>
                 <p><a>•</a> I improved the consultation times for project implementation and troubleshooting using/creating modular training programs based on sharing experiences.<br> 
@@ -104,26 +64,30 @@
                 <p> <a>•</a> I have analyzed and documented more than 300 functional analyses for different payroll projects.<br>
                     <a>•</a> I have audited more than 500 payroll processes.<br>
                     <a>•</a> I have developed/optimized more than 100 database stored procedures/functions in SQL/Oracle Database.<br>
-                    <a>•</a> I applied re-engineering to software and database programming to improve the application's response and accuracy in processing tasks.</p>
+                    <a>•</a> I applied re-engineering to software and database programming to improve the application's response and accuracy in processing tasks.</p><
+                
+                <div class="exp-img" id="img-t7"><a href="http://www.sygnusconsulting.com" target="_blank"  class="hyperlinks">
+                    <img class="companyLogo" src="images/sygnuslogo.jpeg" alt="Sygnus Consulting" ></a>
                 </div>
-            <div class="exp-img" id="img-t7"><a href="http://www.sygnusconsulting.com" target="_blank"  class="hyperlinks">
-                <img class="companyLogo" src="images/sygnuslogo.jpeg" alt="Sygnus Consulting" ></a>
             </div>
-            <div class="exp" id="T8">
+            
+            <div class="tabcontent" id="T3">
                 <h1>Panorama BPO S.A.</h1>
                 <h2>Technology and Information Systems Analyst <a>(Jul 2014 - Mar 2016) 1 yr 9 mos</a></h2>
                 <p> <a>•</a> I have analyzed and developed more than 100 projects for CRM & ERP in-house software.<br>
                     <a>•</a> I have optimized more than 200 stored procedures in SQL Database to improve database response timing and accuracy.<br>
                     <a>•</a> I have audited the inventory process for the retail company to fix programming issues that caused missing products and average pricing drops<br>
                     <a>•</a> I have developed and improved the wholesale company's inventory administration and management software.<br>
-                    <a>•</a> I have led the electronic billing integration project according to peruvian law.</p>
+                    <a>•</a> I have led the electronic billing integration project according to peruvian law.</p><
+                
+                <div class="exp-img" id="img-t8"><a href="http://www.panoramabpo.com/" target="_blank"  class="hyperlinks">
+                    <img class="companyLogo" src="images/panoramalogo.jpg" alt="Panorama BPO" ></a>
                 </div>
-            <div class="exp-img" id="img-t8"><a href="http://www.panoramabpo.com/" target="_blank"  class="hyperlinks">
-                <img class="companyLogo" src="images/panoramalogo.jpg" alt="Panorama BPO" ></a>
             </div>
-            <div class="exp" id="T9">
+
+            <div class="tabcontent" id="T4">
                 <h1>Sygnus Consulting S.A.</h1>
-                <h2>Programming Analyst <a>(Jan 2013 - Jun 2014) 1 yr 6 mos</a></h2>
+                <h2>Programmer Analyst <a>(Jan 2013 - Jun 2014) 1 yr 6 mos</a></h2>
                 <p> <a>•</a> I have developed and improved Payroll, HR, Assistance, and Legal Attorney software developed in PowerBuilder.<br>
                     <a>•</a> I have reprogrammed different software modules to apply good programming practices to improve system processes.<br>
                     <a>•</a> I have participated in the investigation of the solution to database lock problems that the application was having.<br>
@@ -131,13 +95,14 @@
                 <h2>Junior Developer <a>(Dec 2011 - Dec 2012) 1 yr 1 mo</a></h2>
                 <p> <a>•</a> I developed a new module for the HR Software to administrate tools in mining companies.<br>
                     <a>•</a> I participated in the company training sessions to learn to program in PowerBuilder.<br>
-                    <a>•</a> I participated in the company training sessions to learn SQL - PL/SQL. </p><br><br><br><br><br><br><br><br><br><br>
+                    <a>•</a> I participated in the company training sessions to learn SQL - PL/SQL. </p><
+            
+                <div class="exp-img" id="img-t9" ><a href="http://www.sygnusconsulting.com" target="_blank"  class="hyperlinks">
+                    <img class="companyLogo" src="images/sygnuslogo.jpeg" alt="Sygnus Consulting" ></a>
                 </div>
-            <div class="exp-img" id="img-t9" ><a href="http://www.sygnusconsulting.com" target="_blank"  class="hyperlinks">
-                <img class="companyLogo" src="images/sygnuslogo.jpeg" alt="Sygnus Consulting" ></a>
             </div>
         </main>
-
+        <script src="JavaScript/tabJS.js"></script>
         <footer>
             <p id="footer1">
                 Designed and Built by Eduardo Fernandez © 2022 

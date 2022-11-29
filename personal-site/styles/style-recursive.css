@@ -9,17 +9,21 @@ header {
 }
 
 nav{
-    grid-column: 4/6;
+    grid-column: 3/6;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
     padding-top: 5%;
+
 }
 
 nav a{
     color: #4D78B8;
     font-size: 1.5vw;
     text-decoration: none;
+    margin: 0;
+    margin: 0;
+    margin-left: -10vw;
 }
 
 .logo {
@@ -40,8 +44,6 @@ nav :hover{
     color: #29ABE2;
     transform: scale(1.1);
 }
-
-
 
 /*Body recursive values*/
 h1,h4 {
@@ -69,7 +71,6 @@ body {
     height: 100%;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
-    
 }
 
 body::-webkit-scrollbar { 
@@ -80,8 +81,6 @@ body::-webkit-scrollbar {
     display: grid;
     grid-template-columns: 15% auto auto 15%;
     grid-auto-flow: column;
-
-    
 }
 
 #tittle {
@@ -104,12 +103,10 @@ p{
 a {
     color:#29ABE2;
     text-decoration: none;
-    
 }
 
 a:hover{
     text-decoration: underline;
-    
 }
 
 /* Footer Recursive Style*/
@@ -120,12 +117,8 @@ footer {
     font-size: 0.8vw;
     bottom: 0;
     width: 100vw;
-    height: 7%;    
-    padding-bottom: 3vw;
+    height: 15%;    
     position:fixed;
-    padding-top: 1vw;
-    display: flexbox;
-
 }
 
 footer a{
@@ -153,7 +146,9 @@ footer a{
 .sociallogo {
     height: 2vw;
     width: 2vw;
+    text-decoration: none;
 }
 .sociallogo:hover {
     transform: scale(1.1);
+    text-decoration: none;
 }
